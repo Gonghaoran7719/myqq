@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>tx/8.png</file>
+        <file>images/1.jpg</file>
+        <file>images/bold.png</file>
+        <file>images/cancel.png</file>
+        <file>images/clear.png</file>
+        <file>images/color.png</file>
+        <file>images/down.png</file>
+        <file>images/folders.png</file>
+        <file>images/groupChat 2.png</file>
+        <file>images/Help.png</file>
+        <file>images/history.png</file>
+        <file>images/icon1.png</file>
+        <file>images/icon2.png</file>
+        <file>images/message.ico</file>
+        <file>images/message.png</file>
+        <file>images/ok.png</file>
+        <file>images/q151020-01.png</file>
+        <file>images/qq151217-02.png</file>
+        <file>images/quit.png</file>
+        <file>images/right.png</file>
+        <file>images/save.png</file>
+        <file>images/searchbox_button.png</file>
+        <file>images/send.png</file>
+        <file>images/sett.png</file>
+        <file>images/under.png</file>
+        <file>tx/0.png</file>
+        <file>qss/default.css</file>
+        <file>bq/000.png</file>
+        <file>bq/0.png</file>
+        <file>bq/001.png</file>
+        <file>bq/1.png</file>
+    </qresource>
+</RCC>

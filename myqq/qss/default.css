@@ -1,0 +1,495 @@
+*{font-family: "微软雅黑"; }
+QLabel{font-size:16px;}
+QLineEdit{font-size:14px;}
+
+QLabel#lb_tittle{
+    font-size:16px;
+}
+
+QPushButton#pb_max
+{
+    font-family:"幼圆";
+}
+
+/*主界面样式*/
+QWidget#MyQQ{
+    border: 2px solid /*#7AE5C3*/#A5A6A8;
+    border-radius: 2px;
+    background-color: /* #7AE5C3*/#31A66B;/*#23FFFF*/
+}
+
+
+
+QWidget#widgetWinTitle, QWidget#widgetWinTitle_2 {
+    background-color: #31A66B;
+}
+
+QWidget#LoginWidget {
+    background-color: transparent;
+}
+
+
+QWidget#page,QWidget#page_2,QWidget#page_3 {
+    border:none;
+    background-color: #FFFFFF;
+}
+
+/*QToolTip {
+    border: 1px solid #31A66B;
+    border-radius: 2px;
+    background-color: #F1F2F3;
+    font: 14px;
+}*/
+
+QWidget#widgetBody,QWidget#widgetBody_2,QWidget#widgetFileBoard {
+    background-color: #F1F2F3;
+}
+
+/*QWidget#BottomWidget {
+    background-color: #FFFFFF;
+}*/
+
+QWidget#widgetUserInfo QLabel {
+    color: #FFFFFF;
+}
+
+QPushButton#pb_min,QPushButton#pb_max,QPushButton#pb_close
+{
+    border: none;
+    background-color: transparent;
+}
+
+/*QPushButton#btnWinMin_2,QPushButton#btnWinClose_2 {
+    border: none;
+    background-color: transparent;
+    min-width: 24px;
+    min-height: 24px;
+}*/
+QPushButton#pb_search
+{
+    background-color:transparent;
+    border: 1px solid #FFFFFF;
+}
+
+QPushButton#pb_min:hover,QPushButton#pb_max:hover{
+    padding-top: 2px;
+    border: 1px solid #FFFFFF;
+}
+
+QPushButton#pb_close:hover{
+    padding-top: 2px;
+    background-color: #FF0000;
+}
+
+
+
+QWidget#ToolWidget{
+    border: 1px solid #A5A6A8;
+    border-radius: 1px;
+    background-color:#CAEEEEEE;
+}
+
+QWidget#widgetMenu {
+    border-top: 1px solid #FFFFFF;
+    background-color: #CAEEEEEE;
+}
+
+QWidget#wdg_stack {
+   /* background-color: #CAEEEEEE;*/
+   background-color:/*#C0FCF4*//*#7AE5C3*/#CAEEEEEE;/*#23FFFF*/
+}
+QWidget#wdg_stack QToolButton {
+    border: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+/*    min-width: 75px;
+    min-height: 58px;*/
+/*    color: #666666;*/
+/*    font: 11px;*/
+}
+
+/*QPushButton#pb_send,QPushButton#pb_page_1,QPushButton#pb_page_2 {
+     background-color: transparent;
+     border-top: 1px solid #FFFFFF;
+}*/
+
+QWidget#wdg_stack QToolButton:hover {
+    border: none;
+    min-width: 90px;
+/*    background-color: /*#7AE5C3*/
+    /*color: #99FFFFFF#23FFFF;/*#666666*/
+/*    font-family: "微软雅黑";
+    font: 11px;*/
+    color:#666666;
+}
+
+QWidget#wdg_stack QToolButton:checked {
+    border-bottom: 2px solid #2254D8;
+    background-color:#7AFFFFFF;/*#99FFFFFF*/
+}
+
+
+QWidget#frindListWidget {
+    border: none;
+    background-color: #FFFFFF;
+}
+/*end 主界面样式 end*/
+
+/*聊天窗口, 房间样式表设计*/
+QDialog#ChatDialog, QDialog#RoomDialog{
+    border: 2px solid /*#7AE5C3*/#A5A6A8;
+    border-radius: 2px;
+    background-color: /* #7AE5C3*/#31A66B;/*#23FFFF*/
+}
+
+QTextEdit{
+    border: none;
+    background-color: #D3ECE4;
+}
+QWidget#wdg_send {
+   background-color: #D3ECE4;
+}
+
+QWidget#widgetSetting/*,QWidget#SetBtnWdg*/ {
+    border-top: 1px solid #999999;
+}
+
+QWidget#widgetSetting QToolButton {
+    border: none;
+    color: #FFFFFF;
+    background-color: none;
+}
+QWidget#SetBtnWdg QToolButton {
+    border: none;
+    color: #FFFFFF;
+    background-color: none;
+}
+
+QWidget#widgetSetting QToolButton:hover {
+    border: 1px solid #FFFFFF;
+}
+QWidget#SetBtnWdg QToolButton:hover {
+    border: 1px solid #FFFFFF;
+}
+QPushButton#exitBtn,QPushButton#actionBtn,QPushButton#sendBtn {
+    border: none;
+    border-radius: 5px;
+    background-color: #31A668;
+    color: #FFFFFF;
+    font: 12px;
+}
+QPushButton#FileInfoBtn,QPushButton#PersonInfoBtn{
+    border: none;
+    background-color: #31A668;
+    color: #FFFFFF;
+}
+
+
+QPushButton#exitBtn:hover,QPushButton#sendBtn:hover,QPushButton#FileInfoBtn:hover,QPushButton#PersonInfoBtn:hover,QPushButton#actionBtn:hover {
+    background-color: #75D5A5;
+}
+
+QPushButton::menu-indicator {
+    image: url(:/resource/common/ic_arrow_down.png);
+    min-width: 20px;
+    border-left: 1px solid #ffffff;
+    subcontrol-origin: padding;
+    subcontrol-position: center right;
+}
+
+QPushButton::menu-indicator:open {
+    position: relative;
+    top: 1px;
+}
+
+QPushButton::menu-indicator:pressed {
+    position: relative;
+    top: 1px;
+}
+
+QPushButton#exitBtn {
+    min-width: 60px;
+}
+
+/*QPushButton#PersonInfoBtn {
+    min-width: 60px;
+}
+QPushButton#FileInfoBtn {
+    min-width: 60px;
+}*/
+
+QPushButton#sendBtn {
+    min-width: 60px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+QPushButton#actionBtn {
+    min-width: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+/* end 聊天窗口 end*/
+
+/*滚动条样式*/
+QScrollBar:horizontal{
+    background:#C7E5D6;
+    padding:0px;
+    border-radius:6px;
+    max-height:12px;
+}
+
+QScrollBar::handle:horizontal{
+    background:#9FB7AB;
+    min-width:50px;
+    border-radius:6px;
+}
+
+QScrollBar::handle:horizontal:hover{
+    background:#5F6E66;
+}
+
+QScrollBar::handle:horizontal:pressed{
+    background:#5F6E66;
+}
+
+QScrollBar::add-page:horizontal{
+    background:none;
+}
+
+QScrollBar::sub-page:horizontal{
+    background:none;
+}
+
+QScrollBar::add-line:horizontal{
+    background:none;
+}
+
+QScrollBar::sub-line:horizontal{
+    background:none;
+}
+
+QScrollBar:vertical{
+    background:#C7E5D6;
+    padding:0px;
+    border-radius:6px;
+    max-width:12px;
+}
+
+QScrollBar::handle:vertical{
+    background:#9FB7AB;
+    min-height:50px;
+    border-radius:6px;
+}
+
+QScrollBar::handle:vertical:hover{
+    background:#5F6E66;
+}
+
+QScrollBar::handle:vertical:pressed{
+    background:#5F6E66;
+}
+
+QScrollBar::add-page:vertical{
+    background:none;
+}
+
+QScrollBar::sub-page:vertical{
+    background:none;
+}
+
+QScrollBar::add-line:vertical{
+    background:none;
+}
+
+QScrollBar::sub-line:vertical{
+    background:none;
+}
+
+QScrollArea{
+    border:0px;
+}
+/*end 滚动条样式 end*/
+
+/*系统菜单条样式*/
+QMenu{
+    color:#000000;
+    background-color:#FF00FF;
+    margin:0px;
+    padding:3px;
+}
+
+QMenu:disabled{
+    color:#000000;
+    background-color:#FFFFFF;
+    border:1px solid #A8B2AC;
+    margin:0px;
+}
+
+QMenu::item{
+    padding: 3px 20px;
+}
+
+QMenu::indicator{
+    width: 13px;
+    height: 13px;
+}
+
+QMenu::item:selected,QMenuBar::item:selected{
+    color: #FFFFFF;
+    border: 0px solid #9FB7AB;
+    background-color: #009BDB;
+}
+
+QMenu::separator{
+    height: 1px;
+    background-color: #B5C1CA;
+}
+
+/*end 系统菜单样式 end*/
+
+
+/* 登录界面样式 */
+QWidget#widgetBody QPushButton {
+    border: none;
+    border-radius: 5px;
+    background-color: #31A668;
+    color: #FFFFFF;
+    font: 12px;
+    min-width: 80px;
+    min-height: 27px;
+}
+
+QWidget#widgetBody QPushButton:hover {
+    background-color: #75D5A5;
+}
+
+QWidget#widgetBody_2 QPushButton {
+    border: none;
+    border-radius: 5px;
+    background-color: #31A668;
+    color: #FFFFFF;
+    font: 12px;
+    min-width: 80px;
+    min-height: 27px;
+}
+
+QWidget#widgetBody_2 QPushButton:hover {
+    background-color: #75D5A5;
+}
+
+
+/* --- 照片裁剪 --- */
+
+
+QWidget#widgetLoad {
+        border: 1px solid #E4EFF9;
+        background-color: #FFFFFF;
+}
+
+QWidget#widgetView {
+        background-color: #FFFFFF;
+}
+
+QWidget#PictureEditWidget QPushButton {
+        border: 1px solid #A2A4A6;
+        border-radius: 2px;
+        background-color: #F4F4F4;
+}
+
+QWidget#PictureEditWidget QPushButton:hover {
+        background-color: #BEE7FD;
+}
+
+QWidget#PictureEditWidget QPushButton:pressed {
+        background-color: #EBECED;
+}
+
+
+/*系统底部菜单界面样式设计*/
+QWidget#widgetMenu QToolButton {
+    border: none;
+    border-radius: 0px;
+    background-color: none;
+}
+
+QWidget#widgetMenu QToolButton:hover {
+    border: none;
+    border-radius: 0px;
+    background-color: #E2EFE8;
+}
+
+QPushButton#btnSysMenu {
+    border: none;
+    border-radius: 0px;
+    background-color: none;
+}
+
+QPushButton#btnSysMenu:hover {
+    border: none;
+    border-radius: 0px;
+    background-color: #E2EFE8;
+}
+
+QPushButton#btnSysMenu::menu-indicator {
+    width: 0px;
+    image: none;
+    border: none;
+}
+
+QLineEdit {
+    border: 1px solid #D1D1D1;
+    min-height: 22px;
+    background-color: #FFFFFF;
+}
+
+QLineEdit[ip="true"] {
+    border: none;
+    min-height: 20px;
+}
+
+QLineEdit[ip="true"]:focus {
+    border: none;
+}
+
+QLineEdit:focus {
+    border: 1px solid #1583DD;
+}
+
+/*
+QCheckBox {
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+}
+
+QCheckBox::indicator:unchecked {
+    image: url(:/resource/images/ic_uncheck.png);
+}
+
+QCheckBox::indicator:unchecked:hover {
+    image: url(:/resource/images/ic_check_hover.png);
+}
+
+QCheckBox::indicator:unchecked:pressed {
+    image: url(:/resource/images/ic_check_normal.png);
+}
+
+QCheckBox::indicator:checked {
+    image: url(:/resource/images/ic_check_normal.png);
+}
+
+QCheckBox::indicator:checked:hover {
+    image: url(:/resource/images/ic_check_hover.png);
+}
+
+QCheckBox::indicator:checked:pressed {
+    image: url(:/resource/images/ic_check_normal.png);
+}*/
+
+QListView::item:hover {
+    background-color: #D9D8D7;
+}
